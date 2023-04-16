@@ -25,6 +25,8 @@
                 eshell-mode-hook))
         (add-hook mode (lambda () (display-line-numbers-mode 0))))
 
+(electric-pair-mode 1)
+
 ;; Startup working directory in ~/
 (setq default-directory "~/")
 

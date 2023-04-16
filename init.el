@@ -113,6 +113,8 @@
     ;; `completion-at-point' is often bound to M-TAB.
     (setq tab-always-indent 'complete))
 
+(require 'project)
+
 ;; Persist history over Emacs restarts. Vertico sorts by history position.
 (use-package savehist
   :init

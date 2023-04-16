@@ -198,6 +198,10 @@ Functions defined in [[split-functions]]
       ;; `completion-at-point' is often bound to M-TAB.
       (setq tab-always-indent 'complete))
 #+end_src
+***** project
+#+begin_src emacs-lisp
+  (require 'project)
+#+end_src
 ***** savehist
 #+begin_src emacs-lisp
   ;; Persist history over Emacs restarts. Vertico sorts by history position.

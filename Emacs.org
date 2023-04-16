@@ -133,10 +133,6 @@
     (windmove-down))
 #+end_src
 *** Custom Keybindings
-**** Keyboard quit
-#+begin_src emacs-lisp
-  (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
-#+end_src
 **** Split
 Functions defined in [[split-functions]]
 #+begin_src emacs-lisp

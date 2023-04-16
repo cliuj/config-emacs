@@ -61,8 +61,6 @@
   (split-window-below)
   (windmove-down))
 
-(global-set-key (kbd "<escape>") 'keyboard-escape-quit)
-
 (global-set-key (kbd "C-x 3") 'split-window-right-then-focus)
 (global-set-key (kbd "C-x 2") 'split-window-below-then-focus)
 

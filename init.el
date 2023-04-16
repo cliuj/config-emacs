@@ -131,6 +131,7 @@
 (use-package evil
   :init
   (evil-mode)
+  (setq evil-want-keybinding nil)
   :config
   ;; Use visual line motions even outside of visual-line-mode buffers
   (evil-global-set-key 'motion "j" 'evil-next-visual-line)
@@ -138,6 +139,11 @@
   (evil-set-undo-system 'undo-redo)
   (setq evil-split-window-below t)
   (setq evil-vsplit-window-right t))
+
+(use-package evil-collection
+  :after evil
+  :config
+  (evil-collection-init))
 
 (use-package org
   :straight

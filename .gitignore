@@ -1,0 +1,5 @@
+*
+!.gitignore
+!Emacs.org
+!init.el
+!early-init.el

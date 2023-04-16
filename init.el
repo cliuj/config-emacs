@@ -242,6 +242,8 @@
 
 (use-package yaml-mode)
 
+(use-package yuck-mode)
+
 (use-package vertico
   :init
   (vertico-mode)

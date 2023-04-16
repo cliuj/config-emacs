@@ -375,6 +375,10 @@ Functions defined in [[split-functions]]
 #+begin_src emacs-lisp
   (use-package yaml-mode)
 #+end_src
+***** yuck
+#+begin_src emacs-lisp
+  (use-package yuck-mode)
+#+end_src
 **** Completion
 ***** vertico
 #+begin_src emacs-lisp

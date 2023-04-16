@@ -228,6 +228,8 @@
 ;; already links to the manual, if a function is referenced there.
 (global-set-key (kbd "C-h F") #'helpful-function)
 
+(use-package yaml-mode)
+
 (use-package vertico
   :init
   (vertico-mode)

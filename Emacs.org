@@ -341,7 +341,7 @@ Functions defined in [[split-functions]]
 #+begin_src emacs-lisp
 (use-package helpful)
 #+end_src
-****** Keybindings
+***** Keybindings
 #+begin_src emacs-lisp
 ;; Note that the built-in `describe-function' includes both functions
 ;; and macros. `helpful-function' is functions only, so we provide
@@ -359,6 +359,11 @@ Functions defined in [[split-functions]]
 ;; By default, C-h F is bound to `Info-goto-emacs-command-node'. Helpful
 ;; already links to the manual, if a function is referenced there.
 (global-set-key (kbd "C-h F") #'helpful-function)
+#+end_src
+*** Tools
+***** magit
+#+begin_src emacs-lisp
+  (use-package magit)
 #+end_src
 *** Editor
 **** Languages

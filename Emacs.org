@@ -373,6 +373,10 @@ Functions defined in [[split-functions]]
 #+end_src
 *** Editor
 **** Languages
+***** purescript
+#+begin_src emacs-lisp
+  (use-package purescript-mode)
+#+end_src
 ***** yaml
 #+begin_src emacs-lisp
   (use-package yaml-mode)

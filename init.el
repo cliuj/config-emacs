@@ -242,6 +242,8 @@
 
 (use-package magit)
 
+(use-package purescript-mode)
+
 (use-package yaml-mode)
 
 (use-package yuck-mode)

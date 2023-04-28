@@ -153,6 +153,7 @@
   :hook
   (org-mode . org-indent-mode)
   :config
+  (setq org-startup-folded t)
   (global-set-key (kbd "C-c l") #'org-store-link)
   (global-set-key (kbd "C-c a") #'org-agenda)
   (global-set-key (kbd "C-c c") #'org-capture))
